@@ -1,0 +1,44 @@
+1a)  Rekursiv
+
+b)
+    f(1) = 1
+    f(2) = 1
+    f(3) = 2
+    f(4) = 3
+    f(5) = 5
+
+    Fibonacci Zahlen
+
+c) siehe Bild
+
+d)  T(n) = a * T(g(n)) + f(n)     das ist die allgemeine Form von Rekursion aus der Vorlesung
+
+    Erklärung:
+    1. T(n): Die Laufzeit (oder Komplexität) des Problems der Größe
+    2. a: Die Anzahl der Teilprobleme, in die das Problem aufgeteilt wird
+    3. g(n): Die Größe eines Teilproblems. Häufig ist g(n) = n/b wobei b die Zerlegung des Problems beschreibt
+    4. f(n): Die zusätzliche Arbeit (z. B. das Zusammenführen von Teillösungen oder Vorbereitungsarbeit), die außerhalb der rekursiven Aufrufe geleistet wird.
+
+    O(f(n)) = O(f(n-1))+O(f(n-2))+K     Formel von Max speziell dafür
+            =< 2O(f(n-1)) + K
+            =< 2 * (2 * O(f(n-2)) + K) + K
+            = 4 * O(f(n-2)) + 2K + K
+
+            =< 8 * O(f(n-3)) + 4K + 2K + K
+
+            = 2^n + 2^(n-1) * k - k
+            O(f(n)) = 2^n
+
+e)
+        (Für den Iterativen Ansatz)
+        O(n), da eine Schleife mit n Schritten
+
+g)
+
+
+2a)
+    {a,b,c,d}, {e,f}    da von jeder Komponente im graphen man jede andere Komponente erreichen kann
+
+b)
+
+

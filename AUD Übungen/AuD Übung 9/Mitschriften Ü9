@@ -1,0 +1,24 @@
+Aufgabe 1
+
+
+Stammbaum --> azyklischer Graph (Keine Kreise)
+Kantenzahl: Knotenanzahl - 1
+
+-----------------------------------------------------------------------------
+
+Aufgabe 2
+
+
+a) Zu unserem Beispiel aus 1 --> Alle Knoten könnten Wurzelknoten sein
+
+b) Anzahl verschiedener Gerichteter Bäume: 1
+
+-----------------------------------------------------------------------------
+
+Aufgabe 3
+
+
+a)
+[1, 5, 25, 7, 9, 27, 29, 8, 13, 12, 17, 31]
+
+

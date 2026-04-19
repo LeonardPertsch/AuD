@@ -1,0 +1,19 @@
+1a) f(x) = 6/x + 2x + 4x^2 + 7x^4
+
+    O-Notation = f(x) = O(x^4)
+
+    Ω-Notation
+        6/x sinkt zunehmend ->  Ω(1/x)
+        2x wächst linear ->     Ω(x)
+        4x^2 wächst quadratisch Ω(x^2)
+        7x^4 wächst quadratisch Ω(x^4)
+
+        führendes Wachstum: 7x^4
+        f(x) = Ω(x^4)
+
+    Θ-Notation
+        f(x) = Θ(x^4)
+
+
+2a) Die Algorithmen berechnen kummulierte Summen von a
+

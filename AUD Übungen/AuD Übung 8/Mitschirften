@@ -1,0 +1,32 @@
+Aufgabe 1
+    Adjazenzliste:
+        1 {7,2,5}
+        2 {1,4,3}
+        3 {2,6}
+        4 {5,2,7}
+        5 {1,4,6}
+        6 {3,5,7}
+        7 {1,4,6}
+
+    Kantenliste:
+        (1,2),(1,7),(1,5)
+        (2,1),(2,4),(2,5)
+        (3,2),(3,6)
+        (4,5),(4,2),(4,7)
+        ...
+
+    Inzidenzmatrix
+            (1,2),(1,7),(1,5)...
+        1   1       1       1
+        2   1       0       0
+        3   0       0       0
+        4   0       0       0
+        5   0       0       1
+        6   0       0       0
+        7   0       1       0
+Aufgabe 2
+a/b
+    eigentlich alles geschweifte klammern anstelle von normalen
+    starke:     (S,d,c,b),(I,a),(i,e,h,g,f),(n,o),(p),(m),(k)
+
+    schwache:   (n,o,p),(m),(a,I,K,...)
