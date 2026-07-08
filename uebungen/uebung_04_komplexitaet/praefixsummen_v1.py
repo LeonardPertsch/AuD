@@ -1,0 +1,19 @@
+"""
+Übung 4: Präfixsummen (Variante 1, linear)
+==========================================
+
+Berechnet die Präfixsummen einer Liste in einem Durchlauf:
+b[i] = b[i-1] + a[i].
+
+Laufzeit: O(n)
+"""
+
+a = [2, 3, 4, 5]
+b = [0] * len(a)
+
+b[0] = a[0]
+
+for i in range(1, len(a)):
+    b[i] = b[i - 1] + a[i]
+
+print(b)
