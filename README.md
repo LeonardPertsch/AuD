@@ -1,9 +1,9 @@
-# AuD Exercises 📚
+# AuD Exercises 
 
 Meine Sammlung aus **Algorithmen und Datenstrukturen (AuD)** – selbst implementierte
 Algorithmen, Übungsblätter, Notebooks und Mitschriften aus dem Semester.
 
-## 📂 Struktur
+##  Struktur
 
 ```
 AuD_Exercises/
@@ -37,7 +37,7 @@ AuD_Exercises/
     └── uebung_14_particle_methods/
 ```
 
-## 🧠 Themenüberblick
+##  Themenüberblick
 
 | Thema | Kernidee | Wichtige Skripte |
 |---|---|---|
@@ -53,7 +53,7 @@ Viele Themen liegen bewusst in mehreren Varianten vor
 (`*_eigene_version.py`, `*_auswendig.py`, `*_wiederholung_*.py`) –
 das waren meine Übungs- und Klausurvorbereitungs-Durchläufe.
 
-## 🚀 Ausführen
+## Ausführen
 
 Jedes Skript ist eigenständig lauffähig und enthält am Anfang einen
 Docstring mit Beschreibung und Laufzeit:
@@ -74,7 +74,7 @@ Die Notebooks (`.ipynb`) in `uebungen/` lassen sich mit Jupyter öffnen:
 jupyter lab uebungen/uebung_10_rekursion/10_uebung_recursion.ipynb
 ```
 
-## 📝 Hinweise
+##  Hinweise
 
 - `algorithmen/graphen/dfs_zusammenhang.py` ist noch ein leerer Platzhalter (TODO).
 - Die `mitschriften.txt`-Dateien in den Übungsordnern sind meine Notizen aus den Übungen.
